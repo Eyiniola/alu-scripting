@@ -9,7 +9,7 @@ end
 input_string = ARGV[0]
 
 # Define the regular expression pattern
-pattern =/^h\w*n$/
+pattern =/^h\wn$/
 
 # Initialize an empty result string to store matches
 result = ""
