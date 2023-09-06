@@ -9,7 +9,7 @@ end
 input_string = ARGV[0]
 
 # Define the regular expression pattern
-pattern =/hbt{,4}n/
+pattern =/hbt*n/
 
 # Initialize an empty result string to store matches
 result = ""
